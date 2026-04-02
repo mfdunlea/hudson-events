@@ -712,7 +712,7 @@ function renderEvents() {
             <div class="event-title">${e.title}</div>
             <div class="event-desc">${e.desc}</div>
             <div class="event-meta">
-              <span class="badge badge-${e.source}">${e.source === "library" ? "Library" : e.source === "town" ? "Town" : "Rec Dept"}</span>
+              <span class="badge badge-library">${e.source}</span>
               <span class="tag">${e.location}</span>
               ${e.reg ? '<span class="reg-tag">Registration</span>' : ''}
             </div>
