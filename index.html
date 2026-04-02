@@ -1,10 +1,774 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hudson MA Events</title>
-  </head>
-  <body>
-    <h1>Hello Hudson</h1>
-    <p>Coming soon.</p>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hudson MA Events — Community Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #F7F5F0;
+    --surface: #FFFFFF;
+    --border: #E2DDD6;
+    --border-mid: #CCC8C0;
+    --text: #1A1714;
+    --text-mid: #6B6560;
+    --text-light: #9E9890;
+    --accent: #2D5A3D;
+    --accent-light: #EAF2EC;
+    --accent-text: #1D3D29;
+    --amber: #8B5E1A;
+    --amber-light: #FDF3E3;
+    --amber-text: #633806;
+    --blue: #1A3D6B;
+    --blue-light: #EAF0F8;
+    --coral: #7A2E1A;
+    --coral-light: #FAF0EC;
+    --purple: #3D2A6B;
+    --purple-light: #F0EAFA;
+    --green: #1F5C2E;
+    --green-light: #EBF5EE;
+    --radius: 10px;
+    --radius-sm: 6px;
+    --radius-pill: 99px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* HEADER */
+  .site-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .site-logo {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .site-logo-main {
+    font-family: 'Instrument Serif', serif;
+    font-size: 22px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .site-logo-sub {
+    font-size: 12px;
+    color: var(--text-light);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .header-meta {
+    font-size: 12px;
+    color: var(--text-light);
+  }
+
+  /* LAYOUT */
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+
+  /* STATS ROW */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+
+  .stat-num {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-light);
+  }
+
+  /* TABS */
+  .tab-row {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+
+  .tab {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 18px;
+    cursor: pointer;
+    color: var(--text-mid);
+    border: none;
+    background: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.15s;
+  }
+
+  .tab:hover { color: var(--text); }
+
+  .tab.active {
+    color: var(--text);
+    font-weight: 500;
+    border-bottom-color: var(--accent);
+  }
+
+  /* CONTROLS */
+  .controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .search {
+    flex: 1;
+    min-width: 180px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .search:focus { border-color: var(--border-mid); }
+  .search::placeholder { color: var(--text-light); }
+
+  .filter-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover { border-color: var(--border-mid); color: var(--text); }
+
+  .filter-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 500;
+  }
+
+  /* PANELS */
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* DATE GROUP */
+  .date-group { margin-bottom: 28px; }
+
+  .date-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-light);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* EVENT CARD */
+  .event-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .event-card:hover {
+    border-color: var(--border-mid);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+
+  .event-time {
+    font-size: 12px;
+    color: var(--text-light);
+    white-space: nowrap;
+    min-width: 70px;
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .event-body { flex: 1; min-width: 0; }
+
+  .event-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .event-desc {
+    font-size: 13px;
+    color: var(--text-mid);
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .event-meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* BADGES */
+  .badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: var(--radius-pill);
+  }
+
+  .badge-library { background: var(--blue-light); color: var(--blue); }
+  .badge-town    { background: var(--accent-light); color: var(--accent-text); }
+  .badge-rec     { background: var(--amber-light); color: var(--amber-text); }
+
+  .tag {
+    font-size: 11px;
+    color: var(--text-light);
+  }
+
+  .reg-tag {
+    font-size: 11px;
+    padding: 2px 9px;
+    border-radius: var(--radius-pill);
+    background: var(--bg);
+    color: var(--text-mid);
+    border: 1px solid var(--border);
+  }
+
+  /* BUSINESS CARDS */
+  .biz-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .biz-card:hover {
+    border-color: var(--border-mid);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+
+  .biz-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .biz-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .biz-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .biz-date {
+    font-size: 12px;
+    color: var(--text-light);
+    margin-top: 1px;
+  }
+
+  .biz-event-badge {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: var(--radius-pill);
+    background: var(--amber-light);
+    color: var(--amber-text);
+    white-space: nowrap;
+  }
+
+  .biz-subject {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  .biz-body {
+    font-size: 13px;
+    color: var(--text-mid);
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .biz-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .biz-tag {
+    font-size: 11px;
+    padding: 2px 9px;
+    border-radius: var(--radius-pill);
+    background: var(--bg);
+    color: var(--text-mid);
+    border: 1px solid var(--border);
+  }
+
+  /* SOURCES PANEL */
+  .sources-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+
+  .sources-header {
+    padding: 12px 16px;
+    background: var(--bg);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sources-header span:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  .source-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .source-row:last-child { border-bottom: none; }
+
+  .source-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .dot-green { background: #3B9B5C; }
+  .dot-amber { background: #D4900A; }
+
+  .source-info { flex: 1; }
+
+  .source-name {
+    font-size: 13px;
+    color: var(--text);
+  }
+
+  .source-meta {
+    font-size: 11px;
+    color: var(--text-light);
+    margin-top: 1px;
+  }
+
+  .source-type {
+    font-size: 11px;
+    padding: 2px 9px;
+    border-radius: var(--radius-pill);
+    background: var(--bg);
+    color: var(--text-mid);
+    border: 1px solid var(--border);
+  }
+
+  .sources-note {
+    font-size: 12px;
+    color: var(--text-mid);
+    line-height: 1.6;
+    padding: 4px 0;
+  }
+
+  .sources-note code {
+    font-family: monospace;
+    font-size: 11px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    color: var(--text);
+  }
+
+  .empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-light);
+    font-size: 14px;
+  }
+
+  @media (max-width: 560px) {
+    .stats { grid-template-columns: repeat(3, 1fr); }
+    .stat-num { font-size: 20px; }
+    .event-time { min-width: 56px; font-size: 11px; }
+    .container { padding: 20px 16px 48px; }
+    .site-logo-sub { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-logo">
+    <span class="site-logo-main">Hudson Events</span>
+    <span class="site-logo-sub">Hudson, MA</span>
+  </div>
+  <div class="header-meta">Updated daily</div>
+</header>
+
+<div class="container">
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-num" id="stat-events">17</div>
+      <div class="stat-label">events this month</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-sources">3</div>
+      <div class="stat-label">calendar sources</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-biz">8</div>
+      <div class="stat-label">local businesses</div>
+    </div>
+  </div>
+
+  <div class="tab-row">
+    <button class="tab active" onclick="switchTab('events', this)">Community Calendar</button>
+    <button class="tab" onclick="switchTab('biz', this)">Local Business Updates</button>
+    <button class="tab" onclick="switchTab('sources', this)">Sources</button>
+  </div>
+
+  <!-- EVENTS PANEL -->
+  <div id="panel-events" class="panel active">
+    <div class="controls">
+      <input class="search" type="text" id="event-search" placeholder="Search events..." oninput="renderEvents()" />
+      <button class="filter-btn active" onclick="setEvtFilter('all', this)">All</button>
+      <button class="filter-btn" onclick="setEvtFilter('children', this)">Children</button>
+      <button class="filter-btn" onclick="setEvtFilter('adults', this)">Adults</button>
+      <button class="filter-btn" onclick="setEvtFilter('all-ages', this)">All ages</button>
+    </div>
+    <div id="event-feed"></div>
+  </div>
+
+  <!-- BUSINESS PANEL -->
+  <div id="panel-biz" class="panel">
+    <div class="controls">
+      <input class="search" type="text" id="biz-search" placeholder="Search updates..." oninput="renderBiz()" />
+      <button class="filter-btn active" onclick="setBizFilter('all', this)">All</button>
+      <button class="filter-btn" onclick="setBizFilter('food', this)">Food &amp; drink</button>
+      <button class="filter-btn" onclick="setBizFilter('retail', this)">Retail</button>
+      <button class="filter-btn" onclick="setBizFilter('services', this)">Services</button>
+      <button class="filter-btn" onclick="setBizFilter('event', this)">Has event</button>
+    </div>
+    <div id="biz-feed"></div>
+  </div>
+
+  <!-- SOURCES PANEL -->
+  <div id="panel-sources" class="panel">
+    <div class="sources-panel">
+      <div class="sources-header">
+        <span>Active sources</span>
+        <span>10 total</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson Public Library</div>
+          <div class="source-meta">Last synced: today · 17 events</div>
+        </div>
+        <span class="source-type">Scraper</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Town of Hudson — Events</div>
+          <div class="source-meta">Last synced: today · 4 events</div>
+        </div>
+        <span class="source-type">Scraper</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-amber"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson Rec Department</div>
+          <div class="source-meta">Last synced: 2 days ago · checking</div>
+        </div>
+        <span class="source-type">iCal</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Figs Pizzeria</div>
+          <div class="source-meta">Last email: Apr 1 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson Rotary Club</div>
+          <div class="source-meta">Last email: Mar 29 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Main Street Market</div>
+          <div class="source-meta">Last email: Mar 31 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson Coffee Roasters</div>
+          <div class="source-meta">Last email: Apr 1 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">The Framery</div>
+          <div class="source-meta">Last email: Mar 28 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-green"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson Yoga Studio</div>
+          <div class="source-meta">Last email: Mar 30 · via inbox</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+      <div class="source-row">
+        <div class="source-dot dot-amber"></div>
+        <div class="source-info">
+          <div class="source-name">Hudson School District</div>
+          <div class="source-meta">No emails yet · subscribed</div>
+        </div>
+        <span class="source-type">Email</span>
+      </div>
+    </div>
+    <p class="sources-note">
+      To add a business: subscribe their marketing emails to <code>hudsonevents@gmail.com</code> and it will appear here automatically within 24 hours.
+    </p>
+  </div>
+
+</div><!-- /container -->
+
+<script>
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DAYS   = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const events = [
+  { date:"2026-04-01", time:"10:30 AM", title:"Drop-In Toddler Storytime", desc:"Stories, crafts, and more for children ages 18–36 months and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
+  { date:"2026-04-02", time:"10:30 AM", title:"Drop-In Baby Storytime", desc:"Gentle stories and rhymes for babies 0–18 months and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
+  { date:"2026-04-03", time:"10:00 AM", title:"Drop-in Playgroup", desc:"Time to bond, connect, and play for children ages 0–5 and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
+  { date:"2026-04-03", time:"2:00 PM",  title:"Movie at the Library — Zootopia 2", desc:"Children of all ages welcome. Light refreshments served.", location:"Storytelling Room", source:"library", age:"all-ages", reg:true },
+  { date:"2026-04-04", time:"9:00 AM",  title:"Drop-in Craft (Saturday)", desc:"Self-directed craft for children and their caregivers every Saturday.", location:"Children's Room", source:"library", age:"children", reg:false },
+  { date:"2026-04-04", time:"9:30 AM",  title:"Adventures in Walking: Adult Walking Group", desc:"Meet at the Library then head outdoors for a group walk and conversation. Snacks provided.", location:"Outdoors", source:"library", age:"adults", reg:true },
+  { date:"2026-04-06", time:"4:00 PM",  title:"Can You Fit Through an Index Card?", desc:"Hands-on STEM activity exploring surface area. Ages 6–11.", location:"Stage, Children's Dept.", source:"library", age:"children", reg:true },
+  { date:"2026-04-07", time:"6:30 PM",  title:"Paint Your Own 'I Love HPL' Book Bags", desc:"Hand-painted book bag workshop for adults 18+.", location:"McLellan Room", source:"library", age:"adults", reg:true },
+  { date:"2026-04-08", time:"2:00 PM",  title:"Movie at the Library — The Lorax in 3D", desc:"Children of all ages and caregivers welcome. Light refreshments.", location:"Storytelling Room", source:"library", age:"all-ages", reg:true },
+  { date:"2026-04-11", time:"10:00 AM", title:"Portuguese Storytime", desc:"Share stories in Portuguese with local dual language teachers.", location:"Storytelling Room", source:"library", age:"children", reg:true },
+  { date:"2026-04-11", time:"2:00 PM",  title:"Korean Lotus Paper Lanterns Workshop", desc:"Hands-on lantern-making workshop. Also available virtually.", location:"McLellan Room", source:"library", age:"all-ages", reg:true },
+  { date:"2026-04-14", time:"6:30 PM",  title:"52 Book Club for Adults", desc:"Year-long reading challenge — bring your pick and share with the group.", location:"McLellan Room", source:"library", age:"adults", reg:false },
+  { date:"2026-04-14", time:"7:00 PM",  title:"Online Author Talk: Brad Taylor", desc:"Thriller author Brad Taylor on his latest Pike Logan novel, Shadow Strike.", location:"Online", source:"library", age:"adults", reg:true },
+  { date:"2026-04-15", time:"6:00 PM",  title:"Friends & Family Game Night", desc:"Play favorites, learn new games, meet other board game enthusiasts. All ages.", location:"Children's Room", source:"library", age:"all-ages", reg:false },
+  { date:"2026-04-23", time:"2:00 PM",  title:"Intergalactic Dance Party", desc:"Dancing to far-out music with balloons and scarves!", location:"Children's Room", source:"library", age:"children", reg:true },
+  { date:"2026-04-23", time:"6:30 PM",  title:"Drop-In Pajama Storytime", desc:"Coziest pajamas, stuffed animal, bedtime stories. All ages.", location:"Children's Room", source:"library", age:"all-ages", reg:false },
+  { date:"2026-04-25", time:"2:00 PM",  title:"Little Innovators — Constellation Viewer", desc:"STEM activity for ages 9–11: build a constellation viewer.", location:"Stage, Children's Dept.", source:"library", age:"children", reg:true },
+  { date:"2026-04-27", time:"5:30 PM",  title:"Drop-In Lego Club", desc:"Build original Lego designs and keep them on display. Ages 6+.", location:"Children's Room", source:"library", age:"children", reg:false },
+];
+
+const bizUpdates = [
+  { biz:"Figs Pizzeria",         initials:"FP", bg:"#FDF3E3", fg:"#633806", date:"Apr 1",  category:"food",     subject:"Friday Night Live Music + $5 slices",      body:"This Friday from 7–10pm we've got acoustic duo The Millpond Sessions on the patio. Come grab a slice and stay for the show — no cover charge.", tags:["live music","friday","outdoor"], hasEvent:true },
+  { biz:"Hudson Coffee Roasters", initials:"HC", bg:"#EBF5EE", fg:"#1F5C2E", date:"Apr 1",  category:"food",     subject:"New spring roast is here",                  body:"Our Guatemala Huehuetenango single-origin just dropped — bright, citrusy, and perfect for the season. Stop in this week for a free pour-over sample with any purchase.", tags:["new arrival","spring"], hasEvent:false },
+  { biz:"Main Street Market",     initials:"MM", bg:"#EAF0F8", fg:"#1A3D6B", date:"Mar 31", category:"food",     subject:"Easter weekend hours + local vendor market", body:"We'll be hosting six local vendors in our parking lot Saturday April 4, 10am–2pm. Fresh baked goods, plants, and handmade crafts. Store hours extended to 7pm all weekend.", tags:["vendor market","saturday","easter"], hasEvent:true },
+  { biz:"Hudson Yoga Studio",     initials:"HY", bg:"#F0EAFA", fg:"#3D2A6B", date:"Mar 30", category:"services", subject:"Spring schedule + new morning flow class",   body:"Starting April 7 we're adding a 6am flow class on Tuesdays and Thursdays. First class is free for new students. Book through our website or just show up!", tags:["new class","morning","spring"], hasEvent:false },
+  { biz:"The Framery",            initials:"TF", bg:"#FAF0EC", fg:"#7A2E1A", date:"Mar 28", category:"retail",   subject:"Local artist showcase — opening reception Apr 18", body:"We're proud to host work by five local artists this spring. Opening reception Saturday April 18, 5–8pm. Wine, light bites, and a chance to meet the artists.", tags:["art show","reception","april"], hasEvent:true },
+  { biz:"Hudson Rotary Club",     initials:"RC", bg:"#EAF2EC", fg:"#1D3D29", date:"Mar 29", category:"services", subject:"Pancake breakfast fundraiser — April 12",    body:"Our annual pancake breakfast is back at the Elks Lodge, 8am–noon on April 12. $10 adults, $5 kids. All proceeds support local scholarships.", tags:["fundraiser","breakfast","family"], hasEvent:true },
+  { biz:"Figs Pizzeria",          initials:"FP", bg:"#FDF3E3", fg:"#633806", date:"Mar 25", category:"food",     subject:"April specials menu is live",               body:"Check out our new April menu — featuring a white clam pizza, a roasted beet salad, and a new calzone option. Available starting April 1.", tags:["new menu","seasonal"], hasEvent:false },
+  { biz:"Main Street Market",     initials:"MM", bg:"#EAF0F8", fg:"#1A3D6B", date:"Mar 22", category:"food",     subject:"Local maple syrup is back in stock",        body:"We've restocked Hudson Hill Farm's maple syrup — dark, medium, and light grades available. Goes fast every year, so grab yours soon.", tags:["local","seasonal"], hasEvent:false },
+];
+
+let evtFilter = "all";
+let bizFilter = "all";
+
+function formatDate(d) {
+  const dt = new Date(d + "T12:00:00");
+  return DAYS[dt.getDay()] + ", " + MONTHS[dt.getMonth()] + " " + dt.getDate();
+}
+
+function switchTab(tab, el) {
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+  el.classList.add("active");
+  document.getElementById("panel-" + tab).classList.add("active");
+}
+
+function setEvtFilter(f, el) {
+  evtFilter = f;
+  document.querySelectorAll("#panel-events .filter-btn").forEach(b => b.classList.remove("active"));
+  el.classList.add("active");
+  renderEvents();
+}
+
+function setBizFilter(f, el) {
+  bizFilter = f;
+  document.querySelectorAll("#panel-biz .filter-btn").forEach(b => b.classList.remove("active"));
+  el.classList.add("active");
+  renderBiz();
+}
+
+function renderEvents() {
+  const q = (document.getElementById("event-search").value || "").toLowerCase();
+  const filtered = events.filter(e => {
+    const mf = evtFilter === "all" || e.age === evtFilter;
+    const ms = !q || e.title.toLowerCase().includes(q) || e.desc.toLowerCase().includes(q) || e.location.toLowerCase().includes(q);
+    return mf && ms;
+  });
+
+  const grouped = {};
+  filtered.forEach(e => {
+    if (!grouped[e.date]) grouped[e.date] = [];
+    grouped[e.date].push(e);
+  });
+
+  const feed = document.getElementById("event-feed");
+  if (!filtered.length) {
+    feed.innerHTML = '<div class="empty">No events match your search.</div>';
+    return;
+  }
+
+  feed.innerHTML = Object.keys(grouped).sort().map(date => `
+    <div class="date-group">
+      <div class="date-label">${formatDate(date)}</div>
+      ${grouped[date].map(e => `
+        <div class="event-card">
+          <div class="event-time">${e.time}</div>
+          <div class="event-body">
+            <div class="event-title">${e.title}</div>
+            <div class="event-desc">${e.desc}</div>
+            <div class="event-meta">
+              <span class="badge badge-${e.source}">${e.source === "library" ? "Library" : e.source === "town" ? "Town" : "Rec Dept"}</span>
+              <span class="tag">${e.location}</span>
+              ${e.reg ? '<span class="reg-tag">Registration</span>' : ''}
+            </div>
+          </div>
+        </div>`).join("")}
+    </div>`).join("");
+}
+
+function renderBiz() {
+  const q = (document.getElementById("biz-search").value || "").toLowerCase();
+  const filtered = bizUpdates.filter(b => {
+    const mf = bizFilter === "all" || b.category === bizFilter || (bizFilter === "event" && b.hasEvent);
+    const ms = !q || b.biz.toLowerCase().includes(q) || b.subject.toLowerCase().includes(q) || b.body.toLowerCase().includes(q) || b.tags.some(t => t.includes(q));
+    return mf && ms;
+  });
+
+  const feed = document.getElementById("biz-feed");
+  if (!filtered.length) {
+    feed.innerHTML = '<div class="empty">No updates match your search.</div>';
+    return;
+  }
+
+  feed.innerHTML = filtered.map(b => `
+    <div class="biz-card">
+      <div class="biz-header">
+        <div class="biz-avatar" style="background:${b.bg};color:${b.fg}">${b.initials}</div>
+        <div>
+          <div class="biz-name">${b.biz}</div>
+          <div class="biz-date">${b.date}</div>
+        </div>
+        ${b.hasEvent ? '<span class="biz-event-badge">Has event</span>' : ''}
+      </div>
+      <div class="biz-subject">${b.subject}</div>
+      <div class="biz-body">${b.body}</div>
+      <div class="biz-tags">${b.tags.map(t => `<span class="biz-tag">${t}</span>`).join("")}</div>
+    </div>`).join("");
+}
+
+renderEvents();
+renderBiz();
+</script>
+</body>
 </html>
