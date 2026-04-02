@@ -78,9 +78,9 @@ def scrape_month(year_month):
         next_a = h2.find_next_sibling("a")
         registration = bool(next_a and "register" in next_a.get_text(strip=True).lower())
 
-        # Get description from next paragraph
-        next_p = h2.find_next_sibling("p")
-        desc = next_p.get_text(strip=True) if next_p else ""
+        # Get description from the div after the h3
+        desc_div = next_h3.find_next_sibling("div", class_="event-description-excerpt") if next_h3 else None
+        desc = desc_div.get_text(strip=True) if desc_div else ""
 
         events.append({
             "title":        title,
