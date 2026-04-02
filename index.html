@@ -637,40 +637,24 @@
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const DAYS   = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-const events = [
-  { date:"2026-04-01", time:"10:30 AM", title:"Drop-In Toddler Storytime", desc:"Stories, crafts, and more for children ages 18–36 months and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
-  { date:"2026-04-02", time:"10:30 AM", title:"Drop-In Baby Storytime", desc:"Gentle stories and rhymes for babies 0–18 months and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
-  { date:"2026-04-03", time:"10:00 AM", title:"Drop-in Playgroup", desc:"Time to bond, connect, and play for children ages 0–5 and their caregivers.", location:"Children's Room", source:"library", age:"children", reg:false },
-  { date:"2026-04-03", time:"2:00 PM",  title:"Movie at the Library — Zootopia 2", desc:"Children of all ages welcome. Light refreshments served.", location:"Storytelling Room", source:"library", age:"all-ages", reg:true },
-  { date:"2026-04-04", time:"9:00 AM",  title:"Drop-in Craft (Saturday)", desc:"Self-directed craft for children and their caregivers every Saturday.", location:"Children's Room", source:"library", age:"children", reg:false },
-  { date:"2026-04-04", time:"9:30 AM",  title:"Adventures in Walking: Adult Walking Group", desc:"Meet at the Library then head outdoors for a group walk and conversation. Snacks provided.", location:"Outdoors", source:"library", age:"adults", reg:true },
-  { date:"2026-04-06", time:"4:00 PM",  title:"Can You Fit Through an Index Card?", desc:"Hands-on STEM activity exploring surface area. Ages 6–11.", location:"Stage, Children's Dept.", source:"library", age:"children", reg:true },
-  { date:"2026-04-07", time:"6:30 PM",  title:"Paint Your Own 'I Love HPL' Book Bags", desc:"Hand-painted book bag workshop for adults 18+.", location:"McLellan Room", source:"library", age:"adults", reg:true },
-  { date:"2026-04-08", time:"2:00 PM",  title:"Movie at the Library — The Lorax in 3D", desc:"Children of all ages and caregivers welcome. Light refreshments.", location:"Storytelling Room", source:"library", age:"all-ages", reg:true },
-  { date:"2026-04-11", time:"10:00 AM", title:"Portuguese Storytime", desc:"Share stories in Portuguese with local dual language teachers.", location:"Storytelling Room", source:"library", age:"children", reg:true },
-  { date:"2026-04-11", time:"2:00 PM",  title:"Korean Lotus Paper Lanterns Workshop", desc:"Hands-on lantern-making workshop. Also available virtually.", location:"McLellan Room", source:"library", age:"all-ages", reg:true },
-  { date:"2026-04-14", time:"6:30 PM",  title:"52 Book Club for Adults", desc:"Year-long reading challenge — bring your pick and share with the group.", location:"McLellan Room", source:"library", age:"adults", reg:false },
-  { date:"2026-04-14", time:"7:00 PM",  title:"Online Author Talk: Brad Taylor", desc:"Thriller author Brad Taylor on his latest Pike Logan novel, Shadow Strike.", location:"Online", source:"library", age:"adults", reg:true },
-  { date:"2026-04-15", time:"6:00 PM",  title:"Friends & Family Game Night", desc:"Play favorites, learn new games, meet other board game enthusiasts. All ages.", location:"Children's Room", source:"library", age:"all-ages", reg:false },
-  { date:"2026-04-23", time:"2:00 PM",  title:"Intergalactic Dance Party", desc:"Dancing to far-out music with balloons and scarves!", location:"Children's Room", source:"library", age:"children", reg:true },
-  { date:"2026-04-23", time:"6:30 PM",  title:"Drop-In Pajama Storytime", desc:"Coziest pajamas, stuffed animal, bedtime stories. All ages.", location:"Children's Room", source:"library", age:"all-ages", reg:false },
-  { date:"2026-04-25", time:"2:00 PM",  title:"Little Innovators — Constellation Viewer", desc:"STEM activity for ages 9–11: build a constellation viewer.", location:"Stage, Children's Dept.", source:"library", age:"children", reg:true },
-  { date:"2026-04-27", time:"5:30 PM",  title:"Drop-In Lego Club", desc:"Build original Lego designs and keep them on display. Ages 6+.", location:"Children's Room", source:"library", age:"children", reg:false },
-];
-
-const bizUpdates = [
-  { biz:"Figs Pizzeria",         initials:"FP", bg:"#FDF3E3", fg:"#633806", date:"Apr 1",  category:"food",     subject:"Friday Night Live Music + $5 slices",      body:"This Friday from 7–10pm we've got acoustic duo The Millpond Sessions on the patio. Come grab a slice and stay for the show — no cover charge.", tags:["live music","friday","outdoor"], hasEvent:true },
-  { biz:"Hudson Coffee Roasters", initials:"HC", bg:"#EBF5EE", fg:"#1F5C2E", date:"Apr 1",  category:"food",     subject:"New spring roast is here",                  body:"Our Guatemala Huehuetenango single-origin just dropped — bright, citrusy, and perfect for the season. Stop in this week for a free pour-over sample with any purchase.", tags:["new arrival","spring"], hasEvent:false },
-  { biz:"Main Street Market",     initials:"MM", bg:"#EAF0F8", fg:"#1A3D6B", date:"Mar 31", category:"food",     subject:"Easter weekend hours + local vendor market", body:"We'll be hosting six local vendors in our parking lot Saturday April 4, 10am–2pm. Fresh baked goods, plants, and handmade crafts. Store hours extended to 7pm all weekend.", tags:["vendor market","saturday","easter"], hasEvent:true },
-  { biz:"Hudson Yoga Studio",     initials:"HY", bg:"#F0EAFA", fg:"#3D2A6B", date:"Mar 30", category:"services", subject:"Spring schedule + new morning flow class",   body:"Starting April 7 we're adding a 6am flow class on Tuesdays and Thursdays. First class is free for new students. Book through our website or just show up!", tags:["new class","morning","spring"], hasEvent:false },
-  { biz:"The Framery",            initials:"TF", bg:"#FAF0EC", fg:"#7A2E1A", date:"Mar 28", category:"retail",   subject:"Local artist showcase — opening reception Apr 18", body:"We're proud to host work by five local artists this spring. Opening reception Saturday April 18, 5–8pm. Wine, light bites, and a chance to meet the artists.", tags:["art show","reception","april"], hasEvent:true },
-  { biz:"Hudson Rotary Club",     initials:"RC", bg:"#EAF2EC", fg:"#1D3D29", date:"Mar 29", category:"services", subject:"Pancake breakfast fundraiser — April 12",    body:"Our annual pancake breakfast is back at the Elks Lodge, 8am–noon on April 12. $10 adults, $5 kids. All proceeds support local scholarships.", tags:["fundraiser","breakfast","family"], hasEvent:true },
-  { biz:"Figs Pizzeria",          initials:"FP", bg:"#FDF3E3", fg:"#633806", date:"Mar 25", category:"food",     subject:"April specials menu is live",               body:"Check out our new April menu — featuring a white clam pizza, a roasted beet salad, and a new calzone option. Available starting April 1.", tags:["new menu","seasonal"], hasEvent:false },
-  { biz:"Main Street Market",     initials:"MM", bg:"#EAF0F8", fg:"#1A3D6B", date:"Mar 22", category:"food",     subject:"Local maple syrup is back in stock",        body:"We've restocked Hudson Hill Farm's maple syrup — dark, medium, and light grades available. Goes fast every year, so grab yours soon.", tags:["local","seasonal"], hasEvent:false },
-];
-
+let events = [];
+let bizUpdates = [];
 let evtFilter = "all";
 let bizFilter = "all";
+
+async function loadData() {
+  try {
+    const response = await fetch("events.json");
+    const data = await response.json();
+    events = data;
+    document.getElementById("stat-events").textContent = events.length;
+  } catch (err) {
+    console.error("Failed to load events.json", err);
+  }
+  renderEvents();
+  renderBiz();
+}
+
 
 function formatDate(d) {
   const dt = new Date(d + "T12:00:00");
@@ -767,8 +751,7 @@ function renderBiz() {
     </div>`).join("");
 }
 
-renderEvents();
-renderBiz();
+loadData();
 </script>
 </body>
 </html>
