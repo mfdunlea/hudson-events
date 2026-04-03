@@ -517,10 +517,6 @@
   <div id="panel-events" class="panel active">
     <div class="controls">
       <input class="search" type="text" id="event-search" placeholder="Search events..." oninput="renderEvents()" />
-      <button class="filter-btn active" onclick="setEvtFilter('all', this)">All</button>
-      <button class="filter-btn" onclick="setEvtFilter('children', this)">Children</button>
-      <button class="filter-btn" onclick="setEvtFilter('adults', this)">Adults</button>
-      <button class="filter-btn" onclick="setEvtFilter('all-ages', this)">All ages</button>
     </div>
     <div id="event-feed"></div>
   </div>
@@ -651,6 +647,15 @@ async function loadData() {
   } catch (err) {
     console.error("Failed to load events.json", err);
   }
+
+  try {
+    const response = await fetch("business_updates.json");
+    bizUpdates = await response.json();
+    document.getElementById("stat-biz").textContent = bizUpdates.length;
+  } catch (err) {
+    console.error("Failed to load business_updates.json", err);
+  }
+
   renderEvents();
   renderBiz();
 }
@@ -724,30 +729,29 @@ function renderEvents() {
 function renderBiz() {
   const q = (document.getElementById("biz-search").value || "").toLowerCase();
   const filtered = bizUpdates.filter(b => {
-    const mf = bizFilter === "all" || b.category === bizFilter || (bizFilter === "event" && b.hasEvent);
-    const ms = !q || b.biz.toLowerCase().includes(q) || b.subject.toLowerCase().includes(q) || b.body.toLowerCase().includes(q) || b.tags.some(t => t.includes(q));
-    return mf && ms;
+    const ms = !q || b.sender.toLowerCase().includes(q) || b.subject.toLowerCase().includes(q) || b.preview.toLowerCase().includes(q);
+    return ms;
   });
 
   const feed = document.getElementById("biz-feed");
   if (!filtered.length) {
-    feed.innerHTML = '<div class="empty">No updates match your search.</div>';
+    feed.innerHTML = '<div class="empty">No updates yet — check back soon.</div>';
     return;
   }
 
   feed.innerHTML = filtered.map(b => `
     <div class="biz-card">
       <div class="biz-header">
-        <div class="biz-avatar" style="background:${b.bg};color:${b.fg}">${b.initials}</div>
+        <div class="biz-avatar" style="background:var(--accent-light);color:var(--accent-text)">
+          ${b.sender.charAt(0).toUpperCase()}
+        </div>
         <div>
-          <div class="biz-name">${b.biz}</div>
+          <div class="biz-name">${b.sender}</div>
           <div class="biz-date">${b.date}</div>
         </div>
-        ${b.hasEvent ? '<span class="biz-event-badge">Has event</span>' : ''}
       </div>
       <div class="biz-subject">${b.subject}</div>
-      <div class="biz-body">${b.body}</div>
-      <div class="biz-tags">${b.tags.map(t => `<span class="biz-tag">${t}</span>`).join("")}</div>
+      <div class="biz-body">${b.preview}</div>
     </div>`).join("");
 }
 
