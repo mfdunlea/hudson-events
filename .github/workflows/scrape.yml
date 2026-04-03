@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 icalendar recurring-ical-events
+        run: pip install requests beautifulsoup4 icalendar recurring-ical-events google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
       - name: Run scraper
         run: python3 scraper.py
