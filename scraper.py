@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timedelta
 import re
+from icalendar import Calendar
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -95,6 +96,56 @@ def scrape_month(year_month):
 
     return events
 
+def scrape_discover_hudson():
+    import recurring_ical_events
+    from icalendar import Calendar as iCal
+
+    url = "https://calendar.google.com/calendar/ical/fd815e34a7b7cf7581c2eb28c195fc392b7c08c3e201e35830e2854271b40faf@group.calendar.google.com/public/basic.ics"
+    print(f"Fetching Discover Hudson calendar...")
+
+    response = requests.get(url, headers=HEADERS)
+    if response.status_code != 200:
+        print("Failed to fetch Discover Hudson calendar")
+        return []
+
+    cal = iCal.from_ical(response.text)
+    today = datetime.today().date()
+    end   = (datetime.today().replace(day=1) + timedelta(days=90)).date()
+
+    occurrences = recurring_ical_events.of(cal).between(today, end)
+    events = []
+
+    for component in occurrences:
+        dtstart  = component.get("DTSTART")
+        if not dtstart:
+            continue
+
+        dt = dtstart.dt
+        event_date = dt.date() if hasattr(dt, "date") else dt
+
+        title    = str(component.get("SUMMARY",     "")).strip()
+        location = str(component.get("LOCATION",    "")).strip()
+        desc     = str(component.get("DESCRIPTION", "")).strip()
+        url      = str(component.get("URL",         "")).strip()
+
+        if hasattr(dt, "hour"):
+            time_str = dt.strftime("%-I:%M %p")
+        else:
+            time_str = "All day"
+
+        events.append({
+            "title":        title,
+            "date":         event_date.strftime("%Y-%m-%d"),
+            "time":         time_str,
+            "location":     location,
+            "description":  desc,
+            "registration": False,
+            "url":          url,
+            "source":       "Discover Hudson"
+        })
+
+    return events
+
 def main():
     all_events = []
 
@@ -102,6 +153,14 @@ def main():
         events = scrape_month(month)
         all_events.extend(events)
         print(f"  Found {len(events)} events")
+
+    discover = scrape_discover_hudson()
+    all_events.extend(discover)
+    print(f"  Found {len(discover)} Discover Hudson events")
+
+    # Sort all events by date
+    all_events.sort(key=lambda e: e["date"])
+
 
     with open("events.json", "w") as f:
         json.dump(all_events, f, indent=2)
