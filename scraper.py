@@ -146,6 +146,18 @@ def scrape_discover_hudson():
 
     return events
 
+def deduplicate(events):
+    seen = {}
+    for event in events:
+        key = (event["title"].strip().lower(), event["date"])
+        if key not in seen:
+            seen[key] = event
+        else:
+            # Keep library source over others
+            if event["source"] == "library":
+                seen[key] = event
+    return list(seen.values())
+
 def main():
     all_events = []
 
@@ -161,6 +173,17 @@ def main():
     # Sort all events by date
     all_events.sort(key=lambda e: e["date"])
 
+    # Sort all events by date
+    all_events.sort(key=lambda e: e["date"])
+
+    # Deduplicate
+    all_events = deduplicate(all_events)
+    all_events.sort(key=lambda e: e["date"])
+
+    with open("events.json", "w") as f:
+        json.dump(all_events, f, indent=2)
+
+    print(f"After deduplication: {len(all_events)} events")
 
     with open("events.json", "w") as f:
         json.dump(all_events, f, indent=2)

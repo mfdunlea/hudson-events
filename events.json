@@ -80,16 +80,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-04-03",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-04-04",
     "time": "9:00 AM\u20145:00 PM",
@@ -110,16 +100,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-04-04",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-04",
     "time": "3:00 PM",
@@ -130,11 +110,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-04-04",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -190,20 +170,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-07",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-07",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -220,11 +200,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-04-07",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -250,16 +230,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
-    "date": "2026-04-08",
-    "time": "8:00 PM",
-    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Trivia Night with Medusa Brewing Company",
     "date": "2026-04-08",
     "time": "6:00 PM",
@@ -280,21 +250,21 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
     "date": "2026-04-08",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "8:00 PM",
+    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
+    "title": "Walk in Wednesdays",
     "date": "2026-04-08",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -310,30 +280,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-04-09",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-04-09",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-04-09",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -364,16 +324,6 @@
     "date": "2026-04-10",
     "time": "9:30 PM",
     "location": "176 Main St, Hudson, MA 01749",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-in Playgroup",
-    "date": "2026-04-10",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -420,16 +370,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-04-11",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-11",
     "time": "3:00 PM",
@@ -440,11 +380,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-04-11",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -510,20 +450,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-14",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-14",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -540,21 +480,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Family Storytime",
+    "title": "Music Bingo",
     "date": "2026-04-14",
-    "time": "4:00 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us on the 2nd Tuesday of each month for an afternoon storytime featuring delightful stories, crafts, and more! Family Storytime aims to bring families together for a fun, interactive experience that encourages a love of reading and learning. Children of all ages and their caregivers are welcome to attend.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Preschool Storytime + Literacy Games",
-    "date": "2026-04-14",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -610,26 +540,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Friends & Family Game Night for Kids",
-    "date": "2026-04-15",
-    "time": "6:00 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us the third Wednesday of each month to play your favorite games, learn new games, and meet other board game enthusiasts. This program is sponsored by the\u00a0<a href=\"https://www.townofhudson.org/library/friends\" target=\"_blank\">Friends of the Hudson Public Library</a>.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-04-15",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-04-16",
     "time": "10:30 AM",
@@ -640,30 +550,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-04-16",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-04-16",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-04-16",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -700,16 +600,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-04-17",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-04-18",
     "time": "9:00 AM\u20145:00 PM",
@@ -730,16 +620,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-04-18",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-18",
     "time": "3:00 PM",
@@ -750,20 +630,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-04-18",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "$5 Burger Monday's",
-    "date": "2026-04-20",
-    "time": "11:00 AM",
-    "location": "Finnegan's Pub",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -780,6 +650,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "$5 Burger Monday's",
+    "date": "2026-04-20",
+    "time": "11:00 AM",
+    "location": "Finnegan's Pub",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Drop-In Preschool Storytime",
     "date": "2026-04-21",
     "time": "10:30 AM",
@@ -790,20 +670,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-21",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-21",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -820,11 +700,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-04-21",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -890,16 +770,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-04-22",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-04-23",
     "time": "10:30 AM",
@@ -930,40 +800,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-04-23",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-04-23",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Pajama Storytime",
-    "date": "2026-04-23",
-    "time": "6:30 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for Pajama Storytime on the 4th Thursday of each month! Put on your coziest pajamas, bring a cuddly stuffed animal, and gather with us for a fun evening filled with bedtime stories and laughter. For children and families of all ages.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-04-23",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1010,16 +860,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-04-24",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-04-25",
     "time": "9:00 AM\u20145:00 PM",
@@ -1040,16 +880,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-04-25",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-25",
     "time": "3:00 PM",
@@ -1060,11 +890,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-04-25",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1100,20 +930,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-28",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-28",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1130,11 +960,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Music Bingo",
     "date": "2026-04-28",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1180,16 +1010,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-04-29",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-04-30",
     "time": "10:30 AM",
@@ -1210,30 +1030,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-04-30",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-04-30",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-04-30",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1280,16 +1090,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-05-01",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-05-02",
     "time": "9:00 AM\u20145:00 PM",
@@ -1310,16 +1110,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-05-02",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-02",
     "time": "3:00 PM",
@@ -1330,11 +1120,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-05-02",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1380,20 +1170,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-05",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-05",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1410,11 +1200,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-05-05",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1470,16 +1260,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-05-06",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-05-07",
     "time": "10:30 AM",
@@ -1500,21 +1280,11 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-05-07",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-05-07",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1530,10 +1300,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music and Karaoke",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-05-07",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1570,16 +1340,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-05-08",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-05-09",
     "time": "9:00 AM\u20145:00 PM",
@@ -1588,16 +1348,6 @@
     "registration": false,
     "url": "https://townofhudson.assabetinteractive.com/calendar/drop-in-craft-71/",
     "source": "Hudson Public Library"
-  },
-  {
-    "title": "Live Music",
-    "date": "2026-05-09",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
   },
   {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
@@ -1610,11 +1360,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-05-09",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1670,20 +1420,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-12",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-12",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1700,21 +1450,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Family Storytime",
+    "title": "Music Bingo",
     "date": "2026-05-12",
-    "time": "4:00 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us on the 2nd Tuesday of each month for an afternoon storytime featuring delightful stories, crafts, and more! Family Storytime aims to bring families together for a fun, interactive experience that encourages a love of reading and learning. Children of all ages and their caregivers are welcome to attend.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Preschool Storytime + Literacy Games",
-    "date": "2026-05-12",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1728,16 +1468,6 @@
     "registration": false,
     "url": "https://townofhudson.assabetinteractive.com/calendar/drop-in-toddler-storytime-54/",
     "source": "Hudson Public Library"
-  },
-  {
-    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
-    "date": "2026-05-13",
-    "time": "8:00 PM",
-    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
   },
   {
     "title": "Trivia Night with Medusa Brewing Company",
@@ -1760,21 +1490,21 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
     "date": "2026-05-13",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "8:00 PM",
+    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
+    "title": "Walk in Wednesdays",
     "date": "2026-05-13",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1790,30 +1520,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-05-14",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-05-14",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-05-14",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1850,16 +1570,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-05-15",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-05-16",
     "time": "9:00 AM\u20145:00 PM",
@@ -1880,16 +1590,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-05-16",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-16",
     "time": "3:00 PM",
@@ -1900,11 +1600,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-05-16",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -1940,16 +1640,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Lego Club For Ages 6+",
-    "date": "2026-05-18",
-    "time": "5:30 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "<p>Join us in creating original designs with our Legos\u00ae and keep them on display until the next time we meet. Preschoolers are welcome to participate with their caregivers' supervision and assistance.</p><p>For Ages 6+</p>",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Preschool Storytime",
     "date": "2026-05-19",
     "time": "10:30 AM",
@@ -1960,20 +1650,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-19",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-19",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1990,11 +1680,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-05-19",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2060,26 +1750,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Friends & Family Game Night for Kids",
-    "date": "2026-05-20",
-    "time": "6:00 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us the third Wednesday of each month to play your favorite games, learn new games, and meet other board game enthusiasts. This program is sponsored by the\u00a0<a href=\"https://www.townofhudson.org/library/friends\" target=\"_blank\">Friends of the Hudson Public Library</a>.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-05-20",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-05-21",
     "time": "10:30 AM",
@@ -2090,30 +1760,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-05-21",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-05-21",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-05-21",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2150,16 +1810,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-05-22",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-05-23",
     "time": "9:00 AM\u20145:00 PM",
@@ -2180,16 +1830,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-05-23",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-23",
     "time": "3:00 PM",
@@ -2200,11 +1840,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-05-23",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2230,20 +1870,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-26",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-26",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2260,11 +1900,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Music Bingo",
     "date": "2026-05-26",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2330,16 +1970,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-05-27",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Baby Storytime",
     "date": "2026-05-28",
     "time": "10:30 AM",
@@ -2360,40 +1990,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-05-28",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-05-28",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Pajama Storytime",
-    "date": "2026-05-28",
-    "time": "6:30 PM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for Pajama Storytime on the 4th Thursday of each month! Put on your coziest pajamas, bring a cuddly stuffed animal, and gather with us for a fun evening filled with bedtime stories and laughter. For children and families of all ages.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music and Karaoke",
-    "date": "2026-05-28",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2440,16 +2050,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Playgroup",
-    "date": "2026-05-29",
-    "time": "10:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-in Craft",
     "date": "2026-05-30",
     "time": "9:00 AM\u20145:00 PM",
@@ -2470,16 +2070,6 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
-    "date": "2026-05-30",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-30",
     "time": "3:00 PM",
@@ -2490,11 +2080,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-05-30",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2520,20 +2110,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-06-02",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-06-02",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2550,11 +2140,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-06-02",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2565,6 +2155,16 @@
     "time": "6:00 PM",
     "location": "111 Main St, Hudson, MA 01749",
     "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Drop-In Toddler Storytime",
+    "date": "2026-06-03",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2590,20 +2190,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-06-03",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-06-04",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
@@ -2630,10 +2220,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music and Karaoke",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-06-04",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2670,11 +2260,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Live Music",
+    "title": "Drop-in Craft",
     "date": "2026-06-06",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
+    "time": "9:00 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2690,11 +2280,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-06-06",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2710,30 +2300,20 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Preschool Storytime + Literacy Games",
+    "date": "2026-06-09",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-06-09",
     "time": "3:00 PM",
     "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music Bingo",
-    "date": "2026-06-09",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Taco Twosday - $2 Taco & Trivia",
-    "date": "2026-06-09",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2750,20 +2330,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-06-09",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
-    "date": "2026-06-10",
-    "time": "8:00 PM",
-    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
+    "title": "Music Bingo",
+    "date": "2026-06-09",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2780,10 +2360,30 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Drop-In Toddler Storytime",
+    "date": "2026-06-10",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Gourmet Burger Night @Amaia",
     "date": "2026-06-10",
     "time": "4:30 PM",
     "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "FREE Intro to Aerial Arts with InFlyte Entertainment",
+    "date": "2026-06-10",
+    "time": "8:00 PM",
+    "location": "InFlyte Entertainment, 14 Main St studio a, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2800,20 +2400,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-06-10",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-06-11",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
@@ -2830,10 +2420,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music and Karaoke",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-06-11",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2870,11 +2460,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Live Music",
+    "title": "Drop-in Craft",
     "date": "2026-06-13",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
+    "time": "9:00 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2890,20 +2480,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-06-13",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "$5 Burger Monday's",
-    "date": "2026-06-15",
-    "time": "11:00 AM",
-    "location": "Finnegan's Pub",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -2920,20 +2500,30 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
-    "date": "2026-06-16",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "title": "$5 Burger Monday's",
+    "date": "2026-06-15",
+    "time": "11:00 AM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Twosday - $2 Taco & Trivia",
+    "title": "Preschool Storytime + Literacy Games",
     "date": "2026-06-16",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library",
+    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "date": "2026-06-16",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2950,40 +2540,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Preschool Storytime + Literacy Games",
+    "title": "Taco Twosday - $2 Taco & Trivia",
     "date": "2026-06-16",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library",
-    "description": "<p>Play a fun game and learn literacy skills at the same time!</p><p>Ages 3-5</p>",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Trivia Night with Medusa Brewing Company",
-    "date": "2026-06-17",
-    "time": "6:00 PM",
-    "location": "111 Main St, Hudson, MA 01749",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Gourmet Burger Night @Amaia",
-    "date": "2026-06-17",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Walk in Wednesdays",
-    "date": "2026-06-17",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -3000,6 +2560,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Trivia Night with Medusa Brewing Company",
+    "date": "2026-06-17",
+    "time": "6:00 PM",
+    "location": "111 Main St, Hudson, MA 01749",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Drop-In Toddler Storytime",
     "date": "2026-06-17",
     "time": "10:30 AM",
@@ -3010,10 +2580,30 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
-    "date": "2026-06-18",
-    "time": "7:00 PM",
+    "title": "Gourmet Burger Night @Amaia",
+    "date": "2026-06-17",
+    "time": "4:30 PM",
     "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Walk in Wednesdays",
+    "date": "2026-06-17",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Music and Karaoke",
+    "date": "2026-06-18",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
     "registration": false,
     "url": "",
@@ -3030,10 +2620,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music and Karaoke",
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
     "date": "2026-06-18",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -3070,11 +2660,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Live Music",
+    "title": "Drop-in Craft",
     "date": "2026-06-20",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
+    "time": "9:00 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -3090,11 +2680,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-06-20",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -3104,36 +2694,6 @@
     "date": "2026-06-22",
     "time": "11:00 AM",
     "location": "Finnegan's Pub",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
-    "date": "2026-06-23",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Music Bingo",
-    "date": "2026-06-23",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Taco Twosday - $2 Taco & Trivia",
-    "date": "2026-06-23",
-    "time": "7:30 PM",
-    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -3150,11 +2710,51 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "date": "2026-06-23",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Taco Twosday - $2 Taco & Trivia",
+    "date": "2026-06-23",
+    "time": "7:30 PM",
+    "location": "Finnegan's Pub, 25 South St #7, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Music Bingo",
+    "date": "2026-06-23",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Trivia Night with Medusa Brewing Company",
     "date": "2026-06-24",
     "time": "6:00 PM",
     "location": "111 Main St, Hudson, MA 01749",
     "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Drop-In Toddler Storytime",
+    "date": "2026-06-24",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -3180,31 +2780,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
-    "date": "2026-06-24",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "title": "Music and Karaoke",
     "date": "2026-06-25",
-    "time": "7:00 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "9:00 PM",
+    "location": "Finnegan's Pub",
     "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-06-25",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -3220,10 +2800,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music and Karaoke",
+    "title": "Drop-In Baby Storytime",
     "date": "2026-06-25",
-    "time": "9:00 PM",
-    "location": "Finnegan's Pub",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Live Music @ Amaia (Weekly on Thursdays)",
+    "date": "2026-06-25",
+    "time": "7:00 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -3260,11 +2850,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Live Music",
+    "title": "Drop-in Craft",
     "date": "2026-06-27",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
-    "description": "",
+    "time": "9:00 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -3280,11 +2870,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-in Craft",
+    "title": "Live Music",
     "date": "2026-06-27",
-    "time": "9:00 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
