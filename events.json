@@ -100,20 +100,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-04",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-04-04",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -170,6 +170,16 @@
     "source": "Hudson Public Library"
   },
   {
+    "title": "Run Club",
+    "date": "2026-04-07",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-07",
     "time": "10:30 AM",
@@ -194,16 +204,6 @@
     "date": "2026-04-07",
     "time": "3:00 PM",
     "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Run Club",
-    "date": "2026-04-07",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -250,20 +250,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-04-08",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-04-08",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -370,20 +370,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-11",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-04-11",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -470,20 +470,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Music Bingo",
     "date": "2026-04-14",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-14",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -520,20 +520,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-04-15",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-04-15",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -620,20 +620,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-18",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-04-18",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -670,6 +670,16 @@
     "source": "Hudson Public Library"
   },
   {
+    "title": "Run Club",
+    "date": "2026-04-21",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Preschool Storytime + Literacy Games",
     "date": "2026-04-21",
     "time": "10:30 AM",
@@ -694,16 +704,6 @@
     "date": "2026-04-21",
     "time": "3:00 PM",
     "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Run Club",
-    "date": "2026-04-21",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -750,20 +750,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-04-22",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-04-22",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -880,20 +880,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-04-25",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-04-25",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -950,20 +950,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Music Bingo",
     "date": "2026-04-28",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-04-28",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -990,20 +990,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-04-29",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-04-29",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1110,20 +1110,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-02",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-05-02",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -1170,6 +1170,16 @@
     "source": "Hudson Public Library"
   },
   {
+    "title": "Run Club",
+    "date": "2026-05-05",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-05",
     "time": "10:30 AM",
@@ -1194,16 +1204,6 @@
     "date": "2026-05-05",
     "time": "3:00 PM",
     "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Run Club",
-    "date": "2026-05-05",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1240,20 +1240,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-05-06",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-05-06",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1350,20 +1350,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-09",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-05-09",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -1440,20 +1440,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Music Bingo",
     "date": "2026-05-12",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-12",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1490,20 +1490,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-05-13",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-05-13",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1590,20 +1590,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-16",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-05-16",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -1650,6 +1650,16 @@
     "source": "Hudson Public Library"
   },
   {
+    "title": "Run Club",
+    "date": "2026-05-19",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Preschool Storytime + Literacy Games",
     "date": "2026-05-19",
     "time": "10:30 AM",
@@ -1674,16 +1684,6 @@
     "date": "2026-05-19",
     "time": "3:00 PM",
     "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Run Club",
-    "date": "2026-05-19",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1730,20 +1730,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-05-20",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-05-20",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1830,20 +1830,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-23",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-05-23",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -1890,20 +1890,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "title": "Music Bingo",
     "date": "2026-05-26",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-05-26",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -1950,20 +1950,20 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Walk in Wednesdays",
     "date": "2026-05-27",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
+    "title": "Gourmet Burger Night @Amaia",
     "date": "2026-05-27",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2070,20 +2070,20 @@
     "source": "Hudson Public Library"
   },
   {
-    "title": "Live Music",
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
     "date": "2026-05-30",
-    "time": "2:30 PM",
-    "location": "Medusa Brewing Company",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "title": "Live Music",
     "date": "2026-05-30",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
+    "time": "2:30 PM",
+    "location": "Medusa Brewing Company",
     "description": "",
     "registration": false,
     "url": "",
@@ -2104,6 +2104,16 @@
     "date": "2026-06-01",
     "time": "10:30 AM",
     "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Run Club",
+    "date": "2026-06-02",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2140,26 +2150,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Run Club",
-    "date": "2026-06-02",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Trivia Night with Medusa Brewing Company",
-    "date": "2026-06-03",
-    "time": "6:00 PM",
-    "location": "111 Main St, Hudson, MA 01749",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Drop-In Toddler Storytime",
     "date": "2026-06-03",
     "time": "10:30 AM",
@@ -2170,10 +2160,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Trivia Night with Medusa Brewing Company",
     "date": "2026-06-03",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "6:00 PM",
+    "location": "111 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
@@ -2190,11 +2180,31 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Gourmet Burger Night @Amaia",
+    "date": "2026-06-03",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Open Mic Night with Shell Theory @ Cafe 641",
     "date": "2026-06-04",
     "time": "6:00 PM",
     "location": "Caf\u00e9 641, 45 Main St, Hudson, MA 01749, USA",
     "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Drop-In Baby Storytime",
+    "date": "2026-06-04",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2215,16 +2225,6 @@
     "time": "7:00 PM",
     "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-06-04",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2260,6 +2260,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "date": "2026-06-06",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Live Music",
     "date": "2026-06-06",
     "time": "2:30 PM",
@@ -2275,16 +2285,6 @@
     "time": "9:00 AM",
     "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
     "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
-    "date": "2026-06-06",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
-    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2330,6 +2330,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Music Bingo",
+    "date": "2026-06-09",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Taco Tuesdays! @Taco Gato & Medusa",
     "date": "2026-06-09",
     "time": "3:00 PM",
@@ -2340,11 +2350,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Music Bingo",
-    "date": "2026-06-09",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "title": "Drop-In Toddler Storytime",
+    "date": "2026-06-10",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2370,11 +2380,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
+    "title": "Walk in Wednesdays",
     "date": "2026-06-10",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2390,11 +2400,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
-    "date": "2026-06-10",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
-    "description": "",
+    "title": "Drop-In Baby Storytime",
+    "date": "2026-06-11",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2415,16 +2425,6 @@
     "time": "7:00 PM",
     "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-06-11",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2460,6 +2460,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "date": "2026-06-13",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Live Music",
     "date": "2026-06-13",
     "time": "2:30 PM",
@@ -2480,16 +2490,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
-    "date": "2026-06-13",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "$5 Burger Monday's",
     "date": "2026-06-15",
     "time": "11:00 AM",
@@ -2505,6 +2505,16 @@
     "time": "5:30 PM",
     "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
     "description": "<p>Join us in creating original designs with our Legos\u00ae and keep them on display until the next time we meet. Preschoolers are welcome to participate with their caregivers' supervision and assistance.</p><p>For Ages 6+</p>",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Run Club",
+    "date": "2026-06-16",
+    "time": "6:30 PM",
+    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2540,11 +2550,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Run Club",
-    "date": "2026-06-16",
-    "time": "6:30 PM",
-    "location": "Medusa Brewing Company, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
+    "title": "Drop-In Toddler Storytime",
+    "date": "2026-06-17",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2570,11 +2580,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Toddler Storytime",
+    "title": "Walk in Wednesdays",
     "date": "2026-06-17",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for a fun-filled storytime with engaging stories, crafts, and more! Toddler Storytime aims to foster early literacy and spark a love of reading. For children ages 18 - 36 months and their caregivers.",
+    "time": "12:00 PM",
+    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
+    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2590,11 +2600,11 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Walk in Wednesdays",
-    "date": "2026-06-17",
-    "time": "12:00 PM",
-    "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
-    "description": "",
+    "title": "Drop-In Baby Storytime",
+    "date": "2026-06-18",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2615,16 +2625,6 @@
     "time": "7:00 PM",
     "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
     "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-06-18",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2660,6 +2660,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "date": "2026-06-20",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Live Music",
     "date": "2026-06-20",
     "time": "2:30 PM",
@@ -2675,16 +2685,6 @@
     "time": "9:00 AM",
     "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
     "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
-    "date": "2026-06-20",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
-    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2720,16 +2720,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Taco Tuesdays! @Taco Gato & Medusa",
-    "date": "2026-06-23",
-    "time": "3:00 PM",
-    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
-    "description": "",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Music Bingo",
     "date": "2026-06-23",
     "time": "6:30 PM",
@@ -2740,10 +2730,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Trivia Night with Medusa Brewing Company",
-    "date": "2026-06-24",
-    "time": "6:00 PM",
-    "location": "111 Main St, Hudson, MA 01749",
+    "title": "Taco Tuesdays! @Taco Gato & Medusa",
+    "date": "2026-06-23",
+    "time": "3:00 PM",
+    "location": "Taco Gato, 111 Main St, Hudson, MA 01749, USA",
     "description": "",
     "registration": false,
     "url": "",
@@ -2760,10 +2750,10 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Gourmet Burger Night @Amaia",
+    "title": "Trivia Night with Medusa Brewing Company",
     "date": "2026-06-24",
-    "time": "4:30 PM",
-    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "time": "6:00 PM",
+    "location": "111 Main St, Hudson, MA 01749",
     "description": "",
     "registration": false,
     "url": "",
@@ -2775,6 +2765,26 @@
     "time": "12:00 PM",
     "location": "Blvck Rose Tattoo, 51 Main St Unit B, Hudson, MA 01749, USA",
     "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Gourmet Burger Night @Amaia",
+    "date": "2026-06-24",
+    "time": "4:30 PM",
+    "location": "Amaia Martini Bar, 176 Main St, Hudson, MA 01749, USA",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
+    "title": "Drop-In Baby Storytime",
+    "date": "2026-06-25",
+    "time": "10:30 AM",
+    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
+    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
@@ -2810,16 +2820,6 @@
     "source": "Discover Hudson"
   },
   {
-    "title": "Drop-In Baby Storytime",
-    "date": "2026-06-25",
-    "time": "10:30 AM",
-    "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
-    "description": "Join us for an engaging storytime with gentle stories, rhymes, and more! Baby Storytime aims to nurture early brain development, bonding, and a love for learning. For babies 0-18 months and their caregivers.",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
     "title": "Live Music",
     "date": "2026-06-26",
     "time": "6:30 PM",
@@ -2850,6 +2850,16 @@
     "source": "Discover Hudson"
   },
   {
+    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
+    "date": "2026-06-27",
+    "time": "3:00 PM",
+    "location": "162 Main St, Hudson, MA 01749",
+    "description": "",
+    "registration": false,
+    "url": "",
+    "source": "Discover Hudson"
+  },
+  {
     "title": "Live Music",
     "date": "2026-06-27",
     "time": "2:30 PM",
@@ -2865,16 +2875,6 @@
     "time": "9:00 AM",
     "location": "Hudson Public Library, 3 Washington St, Hudson, MA 01749, USA",
     "description": "Join us each Saturday for a self-directed craft for children and their caregivers!",
-    "registration": false,
-    "url": "",
-    "source": "Discover Hudson"
-  },
-  {
-    "title": "Sampling Saturdays with Mullahy's Cheese - Cheese, Wine, and more!",
-    "date": "2026-06-27",
-    "time": "3:00 PM",
-    "location": "162 Main St, Hudson, MA 01749",
-    "description": "",
     "registration": false,
     "url": "",
     "source": "Discover Hudson"
